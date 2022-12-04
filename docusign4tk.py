@@ -13,7 +13,7 @@ print('\n')
 print("|   --> Robot ENCONTROU esses dados para fazer ação <--                   ")
 print('|   --> Siga as instruções <--                   ')
 print('\n\033[1;33mSelecione o arquivo de base de dados na tela tk.\033[m')
-
+#1
 
 root= tk.Tk()
 canvas1 = tk.Canvas(root, width = 300, height = 300, bg = 'lightsteelblue')

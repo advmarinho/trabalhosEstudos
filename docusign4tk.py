@@ -3,7 +3,8 @@ from openpyxl import load_workbook
 from tkinter import Button, filedialog
 import tkinter as tk
 
-# pyinstaller --onefile --console .\docusign5tk.py
+# pyinstaller --onefile --console .\docusign4tk.py
+
 
 print('\n\033[1;32mSoftware by Anderson Marinho \033[m')
 print('\033[1;32mVersão 1.0 \033[m')
@@ -12,6 +13,7 @@ print('\n')
 print("|   --> Robot ENCONTROU esses dados para fazer ação <--                   ")
 print('|   --> Siga as instruções <--                   ')
 print('\n\033[1;33mSelecione o arquivo de base de dados na tela tk.\033[m')
+
 
 root= tk.Tk()
 canvas1 = tk.Canvas(root, width = 300, height = 300, bg = 'lightsteelblue')
